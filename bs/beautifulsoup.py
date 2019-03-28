@@ -23,5 +23,7 @@ soup = BeautifulSoup(open('soup_test.html',encoding='utf8'),'lxml')
 # print(soup.select('.tang>ul>li>a')[3])
 # print(soup.select('#qiwang'))
 
-div = soup.find('div',class_="tang")
-print(div.select('#qiwang'))
+# div = soup.find('div',class_="tang")
+# print(div.select('#qiwang'))
+
+# print(soup.a.attrs)
