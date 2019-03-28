@@ -52,7 +52,7 @@ def parse_content(content):
         # 向a_href发送请求，获取响应内容
         text = get_text(a_href)
         # 写入到html文件中
-        string = '<h1>'+title+'</h1>'+'<p>'+text+'</p>'
+        string = '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'+' <h1>'+title+'</h1>'+'<p>'+text+'</p>'
         # 'a'是追加模式
         with open('lizhi.html','a',encoding='utf8') as fp:
             fp.write(string)
