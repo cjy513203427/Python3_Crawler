@@ -36,7 +36,21 @@ xpath
             contains  //input[contains(@class,"s_i")]
             starts-with  //input[starts-with(@class,"s")]
         取文本
-
+            //div[@id="u1"]/a[5]/text()
+            //div[@id="u1"]//text()
         取属性
+            //div[@id="u1"]/a[5]/@href
+        将内容拼接起来返回
+            ret = tree.xpath('//div[@class="song"]')
+            string = ret[0].xpath('string(.)')
+
+        代码中使用xpath
+            from lxml import etree
+            两种方式使用：
+                将html文档变成一个对象，然后调用对象的方法去查找指定的结点
+                （1）本地文件
+                    tree = etree.parse(文件名)
+                （2）网络文件
+                    tree = etree.HTML(网页字符串)
 
 
