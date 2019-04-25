@@ -19,4 +19,6 @@ PhantomJS
     下拉滚动条到底部
         豆瓣电影下拉
     图片加载
+        图片懒加载
+        获取网页的代码：browser.page_source
 

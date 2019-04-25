@@ -3,6 +3,10 @@ import urllib.request
 import urllib.parse
 import http.cookiejar
 
+'''
+    先登录，保存下Cookie，再访问登录后的页面
+'''
+
 # 创建一个cookiejar
 cj = http.cookiejar.CookieJar()
 # 通过CookieJar创建一个Handler
