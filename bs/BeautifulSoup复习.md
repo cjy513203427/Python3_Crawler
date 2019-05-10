@@ -23,7 +23,7 @@
         soup.find('a',alt='XXX')
         soup.find('a',class_='XXX')
         soup.find('a',id='XXX')
-    5.find_all
+    5.find_allW
         soup.find_all('a')
         soup.find_all(['a','b'])
         soup.find_all('a',limit=2) 取出前两个

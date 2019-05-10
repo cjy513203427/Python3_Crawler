@@ -10,7 +10,7 @@ import pytesseract
 from PIL import Image
 from PIL import ImageEnhance
 
-img = Image.open('./code/YAGJ.gif')
+img = Image.open('./code/YAGJ.png')
 
 img = img.convert('RGB')
 enhancer = ImageEnhance.Color(img)
@@ -23,7 +23,7 @@ enhancer = ImageEnhance.Sharpness(enhancer)
 img = enhancer.enhance(20)
 # 转化为灰度图片
 img = img.convert('L')
-# img.show()
+img.show()
 
 # 二值化处理
 threshold = 140
@@ -34,7 +34,7 @@ for i in range(256):
     else:
         table.append(1)
 out = img.point(table,'1')
-# out.show()
+out.show()
 
 # img = img.convert('RGB')
 
