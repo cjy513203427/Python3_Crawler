@@ -21,7 +21,7 @@ browser = webdriver.Chrome(executable_path=path,chrome_options=chrome_options)
 url = 'https://www.baidu.com'
 
 browser.get(url)
-time.sleep(3)
+# time.sleep(3)
 
 browser.save_screenshot('baidu.png')
 

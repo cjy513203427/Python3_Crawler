@@ -1,24 +1,22 @@
 # -*- encoding: utf-8 -*-
 '''
-@File    :   phantomjs.py    
+@File    :   chrome.py
 @Modify Time      @Author       @Desciption
 ------------      -------       -----------
-2019/4/18 17:02   Jonas           None
+2019/4/18 15:34   Jonas           None
 '''
 import time
 
 from selenium import webdriver
 
-path = r'E:\开发工具\phantomjs-2.1.1-windows\bin\phantomjs.exe'
-
-browser = webdriver.PhantomJS(path)
+# 模拟创建一个浏览器对象，然后通过对象去操作浏览器
+path = 'E:\开发工具\chromedriver.exe'
+browser = webdriver.Chrome(executable_path=path)
 
 url = "https://www.baidu.com"
 browser.get(url)
 
 time.sleep(3)
-
-browser.save_screenshot(r'phantomjs\baidu.png')
 # 查找input输入框
 my_input = browser.find_element_by_id('kw')
 # 往框里面写入文字
@@ -32,6 +30,9 @@ button.click()
 
 time.sleep(3)
 
-browser.save_screenshot(r'phantomjs\starcraft.png')
-# quit之后才会保存截图
+button = browser.find_element_by_xpath('//*[@id="2"]/h3/a')
+button.click()
+
+time.sleep(3)
+
 browser.quit()
