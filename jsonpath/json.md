@@ -3,7 +3,7 @@ jsonpath
         import json
         json.dumps()：将字典或者列表转化为json格式的字符串
         json.loads()：将json格式字符串转化为python对象
-        json.dump()：将字典或列表转化为json格式的字符串
+        json.dump()：从文件读取字典或列表转化为json格式的字符串
         json.load()：从文件读取json格式的字符串，转化为python对象
 
     前端处理

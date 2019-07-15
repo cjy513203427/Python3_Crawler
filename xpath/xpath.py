@@ -15,3 +15,6 @@ tree = etree.parse('xpath.html')
 ret = tree.xpath('//div[@class="song"]')
 string = ret[0].xpath('string(.)')
 print(string.replace('\n','').replace('\t',''))
+
+ret1 = tree.xpath('//*[@id="title_QRDMP0008"]')
+print(ret1)

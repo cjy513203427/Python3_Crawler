@@ -1,0 +1,1683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>安徽移动需求开发管理平台</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type='text/javascript' src='/rdmp/base/commons/scripts/jquery.js'></script><script type="text/javascript"
+	src="/rdmp/rdmp/rdmp009/js/highcharts.js"></script>
+<script type="text/javascript"
+	src="/rdmp/rdmp/rdmp009/js/highcharts.src.js"></script>
+<script type="text/javascript" src="/rdmp/rdmp/rdmp009/js/exporting.js"></script>
+<link rel='STYLESHEET' type='text/css' href='/rdmp/base/commons/scripts/themes/easyui/easyui.css' /><link href='/rdmp/base/commons/scripts/flexigrid/css/flexigrid.css' rel='stylesheet' type='text/css' /><script type='text/javascript' src='/rdmp/base/commons/scripts/jquery.js'></script><script type='text/javascript' src='/rdmp/base/commons/scripts/jquery.easyui.min.js'></script><script type='text/javascript' src='/rdmp/base/commons/scripts/friendone.js'></script><script src='/rdmp/base/commons/scripts/flexigrid/jquery.flexigrid.js' type='text/javascript'></script><script type='text/javascript' src='/rdmp/base/commons/scripts/jquery.form.js'></script><script type='text/javascript' src='/rdmp/base/commons/scripts/jmpopups/jquery.jmpopups.js'></script><script type='text/javascript' src='/rdmp/base/commons/scripts/jmpopups/jquery.jmpopups.js'></script><script type="text/javascript"
+	src="/rdmp/index/javascripts/scrollNotice.js"></script>
+<style>
+.gongzuotai: hover{ outline: none }
+.gongzuotai{display:block;height:100px; width:100%;background:url(index/images/desk.png) no-repeat center center;}
+
+#ext-comp-1001 {
+
+}
+border
+
+
+
+
+
+
+:
+
+
+
+
+
+
+1
+px
+
+
+
+
+
+
+
+solid
+
+
+
+
+
+
+
+#ccc
+
+
+
+
+
+
+;
+border-radius
+
+
+
+
+
+
+:
+
+
+
+
+
+
+5
+px
+
+
+
+
+;
+background
+
+
+
+
+
+
+:
+
+
+
+
+
+
+#cacaca
+
+
+
+
+
+
+;
+}
+</style>
+<!--系统弹框相关JS-->
+<link rel="stylesheet" type="text/css"
+	href="/rdmp/rdmp/frames/ext/resources/css/ext-all.css" />
+<script type="text/javascript"
+	src="/rdmp/rdmp/frames/ext/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="/rdmp/rdmp/frames/ext/ext-all.js"></script>
+<script type="text/javascript"
+	src="/rdmp/rdmp/template/scripts/friendone-ext.js"></script>
+<script type="text/javascript"
+	src="/rdmp/rdmp/extjs/ux/TabCloseMenu.js"></script>
+<script type="text/javascript" src="/rdmp/rdmp/extjs/ux/TipsWindow.js"></script>
+
+</head>
+<body class="page page-index">
+	<!-- header -->
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>安徽移动需求开发管理平台</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+
+<!-- @todo: fill with your company info or remove -->
+<meta name="description" content=""/>
+<meta name="author" content="Themelize.me"/>
+
+<!-- Flexslider -->
+<link href="/rdmp/index/css/flexslider.css" rel="stylesheet"/>
+
+<!-- Your custom override -->
+<link href="/rdmp/index/css/custom-style.css" rel="stylesheet"/>
+
+<!-- Le fav and touch icons - @todo: fill with your icons or remove -->
+<link rel="stylesheet" href="/rdmp/index/css/reveal.css"/>
+<link rel="shortcut icon" href="/rdmp/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/rdmp/index/img/icons/114x114.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/rdmp/index/img/icons/72x72.png"/>
+<link rel="apple-touch-icon-precomposed" href="/rdmp/index/img/icons/default.png"/>
+
+<!-- navigation menu CSS and JS -->
+<link rel="stylesheet" type="text/css" href="/rdmp/index/stylesheets/ddsmoothmenu.css" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="/rdmp/index/stylesheets/bootstrap.css" id="bootstrapstyle"/>
+<link rel="stylesheet" type="text/css" href="/rdmp/index/stylesheets/responsive.css"/>
+<link rel="stylesheet" type="text/css" href="/rdmp/index/stylesheets/theme-style.css" id="themestyle"/>
+<link rel="stylesheet" type="text/css" href="/rdmp/index/stylesheets/style.css" />
+<link rel="stylesheet" type="text/css" href="/rdmp/index/stylesheets/bdsstyle.css"  />
+ <link href="/rdmp/index/css/button.css" rel="stylesheet">
+<script type="text/javascript" src="/rdmp/base/commons/scripts/des/des1.js"></script>
+<!-- <script language="javascript" type="java/javascript"> -->
+<style>
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 1170px;
+  }
+#mainForm table td{
+border:0;
+}
+.btncode{
+ 	height:28px;
+	background-color:#f9f9f9;
+	margin-top:0px;
+	border-radius:5px;
+}
+
+.new-scroll-infor {width:280px;float:left; background-color:#fff0f0; line-height:18px; margin-left:25px; font-size:12px;}
+
+.new-scroll-infor {float:left; background-color:#fff0f0; line-height:18px; margin-left:25px; font-size:12px;}
+</style>
+<script type="text/javascript">
+	// 检测浏览器版本，IE低于7的全部跳转到提醒升级浏览器页面
+	function linkcss() {
+	   var themeobj=document.getElementById("themestyle");
+	   var bootstrapObj = document.getElementById("bootstrapstyle");
+	   var agent = navigator.userAgent.toLowerCase();
+	   var regStr_ie = /msie [\d.]+;/gi;
+	   //IE
+	   if (agent.indexOf("msie") > 0) {
+		   var verinfo = (agent.match(regStr_ie)+"").replace(/[^0-9.]/ig,"");
+		   if(verinfo <= 8) {
+			   var themeurl="/rdmp/index/stylesheets/theme-styleie7.css";
+			   var bootstrapurl="/rdmp/index/stylesheets/bootstrap-ie7.css";
+			   themeobj.href = themeurl;
+			   bootstrapObj.href = bootstrapurl;
+			}
+		}
+	}
+</script>
+
+</head>
+<body class="page page-index" onload="linkcss();">
+<!-- switchUser -->
+<div id="switchUser" title="切换用户" class="reveal-modal" style="visibility: hidden; width: 450px;">
+	     <img id="close" src="/rdmp/index/img/close.png" style="float: right; cursor: pointer;"/>
+   	 <p style="font-size:22px; font-weight:blod;">
+         	切换用户
+       </p>
+   	<form id="mainForm" name="mainForm" method="post">
+   	    <input name="logintype" id="logintype" value="switch" type="hidden"/>
+			<table cellpadding="0" cellspacing="1" style="height: 200px;width: 90%; border:0;" align="center">
+				<tr>
+					<td height="15px;" colspan="2"></td>
+				</tr>
+				<tr>
+					<td width="25%" height="40px;" style="font-size: 12px; text-align: right;">用户名：</td>
+					<td width="75%">
+						<input name="optrid" id="optrid" type="text" class="input-text" style="border: 1px solid #77a4cc;width: 230px;" onKeyPress="button_user_onkeypress(event)" onFocus="this.select()"/>
+					</td>
+				</tr>
+				<tr>
+					<td height="40px;" style="font-size: 12px;text-align: right;">密&nbsp;&nbsp;码：</td>
+					<td>
+					<input name="password" id="password" value="" type="password" class="input-text" style="border: 1px solid #77a4cc;width: 230px;" onKeyPress="button_password_onkeypress(event)" onFocus="this.select()"/>
+
+					</td>
+				</tr>
+				<tr>
+					<td height="40px;" style="font-size: 12px;text-align: right;">验证码：</td>
+					<td>
+					<input type="text" class="input-text" style="border: 1px solid #77a4cc;width: 120px;" id="verificationcode" name="verificationcode" value="" onkeypress="button_verificationcode_onkeypress(event)" onfocus="this.select()"/>
+					<!-- <input  class="btncode" type="button" style="width:90px;"  value="获取验证码" name="btnSendCode"  id="btnSendCode"  onclick="sendMess();" /> -->
+ 					<img  id="imgObj" alt="验证码" src="/rdmp/servlet/VerificationCodeUtil"  style="cursor:pointer;margin-bottom:10px;"
+ 						onclick="this.src='/rdmp/servlet/VerificationCodeUtil?d='+Math.random();" />
+					</td>
+				</tr>
+				<div style="text-align: center;color: red;"><span id="messge"></span></div>
+				<tr>
+					<td colspan="2" align="center">
+					<input type="button"  onclick="mysub()" class="btn btn-small btn-info closebox"  value="登 录">
+					&nbsp;&nbsp;
+					<input type="reset"  class="btn btn-mini btn-danger"  value="重置">
+					</td>
+				</tr>
+			</table>
+	</form>
+</div><!-- switchUser end -->
+
+
+<div id="navigation" class="wrapper">
+	<div class="navbar  navbar-static-top">
+				<!--Hidden Header Region-->
+				<div class="header-hidden show-hide-open">
+					<div class="header-hidden-inner container">
+						<div class="left">[ 部门：<span class="c000">非度</span>  用户：<a onclick="myInfo()" style="color: green;" class="c000">潘植伟</a> 欢迎您！]</div>
+						<div class="new-scroll-infor" id="helpinfor">
+							<marquee id ="marqueeinfo" height="18" behavior="scroll" direction="left" loop="-1" scrollamount="2.5" scrolldelay="5" repetition="infinite" onmouseout="this.start()" onmouseover="this.stop()" style="color:red;">
+ 							<!-- 技术支持: 150-5600-1118 / E-mail: ahrms_dcits@163.com  / QQ群：371503253 -->
+            				</marquee>
+            				</div>
+                      <div class="right">
+                         <a id="link" href="javascript:void(0)"  style="visibility:hidden;position:absolute;"></a>
+                         <a href="#" style="color: #888; text-decoration: none;" title="外包工作量管理" alt="外包工作量管理" onclick="openWorlLoad('')">外包工作量管理</a>&nbsp;|&nbsp;
+                      	 <a href="#" style="color: #888; text-decoration: none;" title="敏捷管理系统" alt="敏捷管理系统" onclick="openBoard()">电子看板</a>&nbsp;|&nbsp;
+                      	 <a href="#" style="color: #888; text-decoration: none;" title="云测试平台" alt="云测试平台" onclick="openCtmp('PANZHIWEI')">云测试平台</a>&nbsp;|&nbsp;
+					     <a href="#" id="myinfo" onclick="openAtomHome()" style="color: #888; text-decoration: none;" title="需求基线化管理" alt="需求基线化管理">需求基线化管理&nbsp;|&nbsp;</a>
+						 <a href="javascript:void(0);" id="switchUser_a" data-reveal-id="switchUser" style="color: #888; text-decoration: none;" title="切换用户" alt="切换用户">切换用户</a>&nbsp;|&nbsp;
+						 <a href="javascript:void(0);" onclick="workadd();" id="logout" style="color: #888; text-decoration: none;" title="退出系统" alt="退出系统">退出系统</a>
+                      </div>
+				  </div>
+				</div>
+				<!--Header & Branding region-->
+
+				<div id="top">
+					<div class="header-inner container">
+						<div class="row-fluid">
+							<div class="span6">
+								<!--branding/logo-->
+								<div class="container">
+                  					<h1 style="float:left;">
+										<a href="/rdmp/loginAction.do?method=call&nextPage=/index/index.jsp&dt=Mon May 20 09:31:26 GMT 2019" style="color: white; text-decoration: none;">
+											<img src="/rdmp/index/images/logo-top.png" alt="首页" title="首页" />
+										</a>
+									</h1>
+									<div class="smoothmenu" id="smoothcontainer">
+										<div id='smoothmenu1' class='ddsmoothmenu'><ul><li><a href='#'>需求管理</a><ul><li><a href='#'>需求版本管理</a><ul><li><a href='callAction.do?method=call&common=query&classes=yearChangeServiceImpl&nextPage=/rdmp/rdmp009/queryYearBusinessPlan.jsp'>年度规划需求查询</a></li><li><a href='callAction.do?method=call&common=queryPlans&classes=demandPlanService&nextPage=/rdmp/rdmp002/queryBusinessPlan.jsp'>月度需求计划查询</a></li></ul></li><li><a href='#'>上线版本管理</a><ul><li><a href='callAction.do?method=call&classes=onlineSerachService&common=query&nextPage=/rdmp/rdmp003/queryOnlinePlan.jsp'>上线计划查询</a></li></ul></li><li><a href='#'>后评估管理</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp004/queryappraise.jsp&common=queyappraise&classes=changeAppriseService'>已评估需求查询</a></li></ul></li><li><a href='callAction.do?method=call&classes=demandService&common=getDemandList&timeflag=1&nextPage=/rdmp/demand/queryDemads.jsp'>需求排期</a></li></ul></li><li><a href='#'>查询统计</a><ul><li><a href='#'>需求进度查询</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp007/queryBusinessNeeds.jsp&classes=searchServiceImpl&common=Search&problem_type=01'>需求工单查询</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp007/querySoftwareNeeds.jsp&classes=searchServiceImpl&common=Search&problem_type=02'>系统需求查询</a></li></ul></li><li><a href='#'>开发进度查询</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp007/queryDevelopTasks.jsp&classes=searchServiceImpl&common=Search&problem_type=03'>开发任务查询</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp007/queryDevelopSubtasks.jsp&classes=searchServiceImpl&common=Search&problem_type=04'>开发子任务查询</a></li></ul></li><li><a href='#'>测试进度查询</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp007/queryTestTask.jsp&classes=searchServiceImpl&common=Search&problem_type=06'>测试任务查询</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp007/queryTestSubtask.jsp&classes=searchServiceImpl&common=Search&problem_type=07'>测试子任务查询</a></li><li><a href='callAction.do?
+
+method=call&nextPage=/rdmp/rdmp007/queryPer.jsp&classes=performaService&common=queryPerformance'>性能测试查询</a></li></ul></li><li><a href='callAction.do?method=call&classes=taskManagerServiceImpl&common=getToken&nextPage=/rdmp/change/change-index.jsp'>change数据查询</a></li><li><a href=' callAction.do?method=call&classes=searchServiceImpl&common=Search&nextPage=/rdmp/rdmp007/queryDefectChange.jsp&problem_type=05'>缺陷工单查询</a></li></ul></li><li><a href='callAction.do?method=call&nextPage=/workload/index.jsp' >合作伙伴</a><ul><li><a href='#'>基础数据管理</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/newworkload/newworktask/newworktask_query.jsp&common=queryTask&classes=newWorkTaskService'>任务查询</a></li></ul></li><li><a href='#'>外包人员管理</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp013/queryEntry.jsp&classes=entryService&common=query#rslist'>人员查询</a></li><li><a href='callAction.do?method=call&classes=accessControlService&common=queryOrg&nextPage=/rdmp/rdmp013/accesscontrolsystem.jsp&querytype=org'>门禁信息对比查询</a></li><li><a href='#'>假期管理</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/workdesk/leave/leave_query.jsp&common=queryAllSelfForUI&classes=leaveService#rslist'>假期申请</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/workdesk/leave/leave_queryAll.jsp&common=queryAllForUI&classes=leaveService#rslist'>假期查询</a></li></ul></li><li><a href='#'>考试管理</a><ul><li><a href='callAction.do?method=call&nextPage=/rdmp/examine/entryRegisterForm.jsp&classes=entryService&common=queryMessage'>合作伙伴考试报名(个人)</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/examine/entryquery.jsp&classes=entryService&common=entryQuery'>合作伙伴考试报名人员查询</a></li><li><a href='callAction.do?method=call&common=selectOrgcode&classes=jobSkillService&nextPage=/rdmp/rdmp013/queryJobSkill.jsp'>新入场岗位技能认证考试成绩</a></li></ul></li></ul></li><li><a href='#'>工作量管理</a><ul><li><a href='callAction.do?method=call&common=qryOffLoadReportingList&classes=offLoadReportingService&nextPage=/rdmp/offload/qryOffLoadReportingList.jsp'>场外工作量报备</a></li><li><a href='callAction.do?method=call&common=getMyDemand&classes=ReqPlanService&nextPage=/rdmp/rdmp010/RevisionWorkload.jsp'>需求测算工作量变更申请</a></li><li><a href='#'>报工管理</a><ul><li><a href='callAction.do?method=call&common=selectConfirmStatus&classes=userEntryService&nextPage=/rdmp/userentry/CheckUserEntryinfo.jsp'>工作量申报</a></li><li><a href='callAction.do?method=call&&nextPage=/rdmp/newworkload/loading.jsp'>工作量与满意度查询</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/newworkload/loadingDemandQuery.jsp'>需求工作量查询</a></li><li><a href='callAction.do?method=call&&nextPage=/rdmp/newworkload/loadingForYKQ.jsp'>云考勤数据查询</a></li></ul></li><li><a href='#'>订单管理</a><ul><li><a href='callAction.do?method=call&&nextPage=/rdmp/newworkorder/workorder_add.jsp&&classes=workorderService&&common=workOrderShowNoSubAc'>订单月度实际工作量申报</a></li><li><a href='callAction.do?method=call&&nextPage=/rdmp/newworkorder/workordertrace.jsp&&classes=workorderService&&common=realityworkqueryfactory#rslist'>订单月度实际工作量查询</a></li><li><a href='callAction.do?method=call&&nextPage=/rdmp/newworkorder/workorder_back.jsp&&classes=workorderService&&common=backQuery#rslist'>月度订单工作量退回处理</a></li></ul></li></ul></li><li><a href='#'>资源分析</a><ul><li><a href='callAction.do?method=call&common=contractSources&classes=workContractServiceImpl&nextPage=/rdmp/workdesk/workcontract/contractIndex.jsp&flag=A'>资源分布</a></li></ul></li></ul></li><li><a href='#'>系统管理</a><ul><li><a href='#'>信息管理</a><ul><li><a href='callAction.do?method=call&common=explorerInfo&classes=appBulletinClientImpl&nextPage=/rdmp/notice/bulletin_explorer.jsp&a_infokind=1'>信息查询</a></li></ul></li></ul></li><li><a href='#'>与我相关</a><ul><li><a href='callAction.do?method=call&nextPage=/base/smsReceiveCfg.jsp'>短信提醒管理</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/workdesk/tasktypecountandlist.jsp&wfid='&wfinstname=''>我的待办</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/workdesk/finishtask.jsp&common=queryMyFinishTask&classes=workDeskService'>我的已办</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/workdesk/myreqlist.jsp&classes=myFirstdevNeedsController&common=findMyAllReq'>我的需求单</a></li><li><a href='callAction.do?method=call&nextPage=/rdmp/rdmp001/list.jsp&common=queryMyDraftForUI&classes=changeService'>草稿箱</a></li><li><a href='callAction.do?method=call&nextPage=/base/role/resetpwd.jsp'>修改密码</a></li><li><a href='callAction.do?method=call&nextPage=/base/busirecord/queryloginrecord.jsp'>登录日志查询</a></li></ul></li></ul><br style='clear: left' /></div></div>
+									<!-- navbar-inner end -->
+									<!--user menu-->
+										<ul class="nav user-menu pull-right">
+											<!--<li><a href="signup.html" class="btn btn-primary signup">Sign Up</a></li>-->
+
+											<li class="dropdown">
+												<a class="search" id="search-drop" data-toggle="dropdown" onclick="showbox();">
+													search
+										 		</a>
+												<div class="dropdown-menu" role="menu" aria-labelledby="search-drop" id="searchbox"  style="display:none">
+													<form class="form-inline">
+														<div class="input-append">
+															<input class="input-medium" type="text" style="height: 26px;"
+																 value="" placeholder="输入您要查询的内容"
+																 id="keys" name="keys"
+																 onkeydown="if(event.keyCode == 13){return false;}"/> <!-- onkeydown="queryByEnter(event);" -->
+															<button class="btn btn-primary" type="button" onclick="qw_query();">
+																Go!
+															</button>
+														</div>
+													</form>
+												</div>
+											</li>
+										</ul>
+								</div>
+							</div>
+							<!--header rightside-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Scripts -->
+		<script type='text/javascript' src='/rdmp/base/commons/scripts/jquery.form.js'></script><script type='text/javascript' src='/rdmp/base/commons/scripts/jmpopups/jquery.jmpopups.js'></script><script type='text/javascript' src='/rdmp/rdmp/template/prompt/ymPrompt.js'></script><link href='/rdmp/rdmp/template/prompt/skin/qq/ymPrompt.css' rel='stylesheet' type='text/css' /><script type="text/javascript">
+			// 设置搜索按钮弹出层
+			var EX = {
+			  addEvent:function(k,v){
+			    var me = this;
+			    if (me.addEventListener)
+			      me.addEventListener(k, v, false);
+			    else if(me.attachEvent)
+			      me.attachEvent("on" + k, v);
+			    else
+			      me["on" + k] = v;
+			  },
+			  removeEvent:function(k,v){
+			    var me = this;
+			    if (me.removeEventListener)
+			      me.removeEventListener(k, v, false);
+			    else if (me.detachEvent)
+			      me.detachEvent("on" + k, v);
+			    else
+			      me["on" + k] = null;
+			  },
+			  stop:function(evt){
+			    evt = evt || window.event;
+			    evt.stopPropagation?evt.stopPropagation():evt.cancelBubble=true;
+			  }
+			};
+			document.getElementById('searchbox').onclick = EX.stop;
+			var url = '#';
+			function showbox(){
+
+			var o = document.getElementById('searchbox');
+			o.style.display = "block";
+			setTimeout(function(){EX.addEvent.call(document,'click',hide);});
+			}
+			function hide(){
+			var o = document.getElementById('searchbox');
+			o.style.display = "none";
+			EX.removeEvent.call(document,'click',hide);
+			}
+		</script>
+		<script type="text/javascript">
+
+		var count = 60; //间隔函数，1秒执行
+		var curCount;//当前剩余秒数
+		var InterValObj; //timer变量，控制时间
+		function sendMess(){
+			$("#message").text("");  //清空登录显示的错误信息
+			var userid=$("#optrid").val();
+			if(userid=='' || userid==null){
+				alert("请先输入用户名");
+				return;
+			}
+			var url="/rdmp/clientAction.do?method=json&common=createCode&classes=createCodeUtil&username="+ userid;
+
+			$.getJSON(url, function(ret){
+				if(ret.jsondata.retCode=='2222' ){
+					alert(ret.jsondata.retDesc);
+					return false;
+				}else if(ret.jsondata.retCode=='3333'){
+					$("#messge").text(ret.jsondata.retDesc);
+					return false;
+				}else{
+					var phone=ret.jsondata.content;
+					var tel=phone.substr(0,3)+"****"+phone.substr(7,4);
+					if(window.confirm("确认发送短信至"+tel+"用户？")){
+					 curCount = count;
+					 $("#btnSendCode").attr("disabled", "true");
+					 $("#btnSendCode").val(curCount + "s");
+					InterValObj = window.setInterval(SetRemainTime, 1000); // 启动计时器，1秒执行一次
+					var url1="/rdmp/clientAction.do?method=json&common=sendMess&classes=createCodeUtil&phone="+phone+"&loginuser="+userid;
+					$.getJSON(url1, function(ret1){
+						//lijian20180502 add start
+						if(ret.jsondata.retCode=='2222' ){
+							alert(ret.jsondata.retDesc);
+							$("#messge").text(ret.jsondata.retDesc);
+							return false;
+						}
+						//lijian20180502 add end
+					});
+				}
+			}
+			});
+		}
+
+/* 		function cleanCode(){
+			var url="/rdmp/clientAction.do?method=json&common=delteCode&classes=createCodeUtil";
+			$.getJSON(url, function(){});
+		} */
+
+		function SetRemainTime() {
+			    if (curCount == 0) {
+			    	cleanCode();
+			       window.clearInterval(InterValObj);// 停止计时器
+			       $("#btnSendCode").removeAttr("disabled");// 启用按钮
+			       $("#btnSendCode").val("重新发送");
+			   }else {
+			        curCount--;
+			        $("#btnSendCode").val(curCount + "s");
+			    }
+			}
+
+
+
+			//我的信息
+			function myInfo() {
+				var userid = 'PANZHIWEI';
+				location.href = "/rdmp/callAction.do?method=call&nextPage=/base/user/myinfo.jsp?iscurrent=1&userid="+userid;
+			}
+
+			 //切换用户
+			function switchUser() {
+				$(".easyui-window:eq(0)").show();
+				$(".easyui-window:eq(0)").window('open');
+				$("#optrid").focus();
+			}
+			// login
+			function mysub(){
+				var username_obj=document.getElementById("optrid");
+				var password_obj=document.getElementById("password");
+				var verificationcode_obj=document.getElementById("verificationcode");
+				if(username_obj.value.trim() == ""){
+					alert("请输入用户名");
+					username_obj.focus();
+					return false;
+				}
+				if(password_obj.value.trim() == ""){
+					alert("请输入密码");
+					password_obj.focus();
+					return false;
+				}
+				if ($("#verificationcode").val() == "") {
+					alert("请输入验证码");
+					verificationcode_obj.focus();
+					return false;
+				}
+				var options = {
+			        url:	   'loginAction.do?method=json&common=login&classes=loginServiceImpl',
+			        success:   logincallback,  // post-submit callback  表单提交成功后被调用的回调函数
+			        type:      'post',        // 'get' or 'post', override for form's 'method' attribute
+			        dataType:  'json',        // 'xml', 'script', or 'json' (expected server response type)
+				    clearForm: true
+			    };
+				var password0=$("#password").val();
+
+				//lijian20180510 add start
+				/* var pwd = password0;
+				var check=false;
+				var msg="";
+
+				//不能小于6位
+				if(pwd.length < 6) {
+					msg = "密码不得短于6位";
+					check=false;
+				//不能纯数字
+				}else if(/^\d+$/.test(pwd)) {
+					msg= "您的密码不安全(只有数字)，请使用字母数字组合";
+					check=false;
+				//不能纯字母
+				} else if(/^[A-Z][a-z]+$/i.test(pwd)) {
+					msg = "您的密码不安全(只有字母)，请使用字母数字组合";
+					check=false;
+				//包含一个大写字母
+				}else if(!/([A-Z])+/.test(pwd)){
+					msg="您的密码必须包含一个大写字母";
+					check=false;
+					//包含一个小写字母
+				}else if(!/([a-z])+/.test(pwd)){
+					msg="您的密码必须包含一个小写字母";
+					check=false;
+				}else if(!/([!@#$%^&*()_+.])+/.test(pwd)){
+					msg="您的密码必须包含一个特殊符号";
+					check=false;
+				}else if(/\s/i.test(pwd)){
+					msg="您的密码不能包含空格";
+					check=false;
+				}else if(pwd.length>20){
+					msg = "密码不得多于20位";
+					check=false;
+				} else if(/^.+$/.test(pwd)) {
+					msg = "您的密码是安全的";
+					check=true;
+				}
+
+				if(!check){
+					alert(msg);
+					$("#password").focus();
+					return false;
+				}
+				 */
+				//lijian20180510 add end
+
+
+				var pass0 = strEnc(password0,deskey1,deskey2,deskey3);
+				$("#password").val(pass0);
+				$('#mainForm').ajaxSubmit(options);
+			}
+
+
+			function logincallback(ret){
+			    if(ret.jsondata.retCode=='0000'){
+			    	var logouturl = '';
+			    	//lijian20180514 add 登陆密码检测提醒 start
+			    	if(ret.jsondata.content == 'MUST'){
+			    		logouturl = '/rdmp/base/role/changepwd.jsp';
+			    	}else if(ret.jsondata.content == 'NEED'){
+			    		logouturl = '/rdmp/base/role/noticepwd.jsp';
+			    	}else{
+			    		logouturl = '/rdmp/index/indexFrame.jsp';
+			    	}
+			    	//lijian20180514 add 登陆密码检测提醒 end
+			    	var mainFrame = $("#mainFrame");
+			    	location.href = logouturl;
+			    }else{
+					alert(ret.jsondata.retDesc);
+					yzm();
+					$("#optrid").focus();
+			    }
+			}
+			function yzm(){
+				curCount=0;
+				$("#imgObj").attr("src","/rdmp/servlet/VerificationCodeUtil?d="+Math.random());
+			}
+
+			//退出时填写报工记录
+			function workadd(){
+				var orgcode="3473570008";
+				if(orgcode.indexOf("34735700")!=-1){   // 添加一个判读如果没有填写日志的话
+
+					//添加时间验证，最后三天若未报工，将强制进入报工申报页面
+					var url = "ajaxAction.do?method=json&common=workadd&classes=workLoginService";
+			        $.getJSON(url,function(data){
+			        	//alert(data.jsondata.retCode);
+			        	 if(data.jsondata.retCode=="0000"){ //最后三天未报工
+			        		 var desc = "您今天工时未报，请及时申报";
+			        		   ymPrompt.alert(desc,300,200,null,function(){
+									location.href = " callAction.do?method=call&classes=workloadService&common=getSysdate&nextPage=/rdmp/newworkload/workinfoadd.jsp";
+								});
+			        	 }else{
+			        		// alert(data.jsondata.content);
+			        		 if(data.jsondata.content!="0"){
+			        				top.location.href="loginAction.do?method=systemLogout";
+			        		 }else{
+				        		 ymPrompt.confirmInfo({
+										title:"提示",
+										message:"是否进入申报页面申报您的工作?",
+										handler:function(result) {
+											if (result == 'ok') {
+												location.href = " callAction.do?method=call&classes=workloadService&common=getSysdate&nextPage=/rdmp/newworkload/workinfoadd.jsp";
+											}else{
+												top.location.href="loginAction.do?method=systemLogout";
+											}
+										}
+									});
+			        		 }
+			        		//-----
+			        	 }
+			        });
+
+				}else{
+					top.location.href="loginAction.do?method=systemLogout";
+					//top.location.href="rdmp/logout.jsp";
+				}
+			}
+
+			function button_user_onkeypress(event) {
+				var event=window.event||event;
+				if(event.keyCode == 13){
+					document.mainForm.password.focus();
+				}
+			}
+
+			function button_password_onkeypress(event) {
+				var event = window.event || event;
+				if (event.keyCode == 13)
+					$("#verificationcode").focus();
+			}
+			function button_verificationcode_onkeypress(event){
+				var event = window.event || event;
+				if (event.keyCode == 13)
+					mysub();
+			}
+
+			// 直接回车查询
+			function queryByEnter(event) {
+				var event=window.event||event;
+				if(event.keyCode == 13){
+					qw_query();
+				}
+			}
+			// 全文检索
+			function qw_query() {
+		        var keys = $("#keys").val();
+		        if(keys == "" || keys=="全文检索"){
+		        	$("#keys").val("");
+		        	$("#keys").focus();
+		        	ymPrompt.alert('请输入检索内容！');
+		    		return false;
+		        }
+		        if(checkSearchInput()){
+			    	keys =  chinaToUnicode(keys);
+			    	location.href = "/rdmp/callAction.do?method=call&common=queryByHome&classes=searchServiceImpl&nextPage=/rdmp/workdesk/lucene.jsp&keys="+keys;
+		        }
+		    }
+			//全文检索提交后验证是否包含关键字
+		    function checkSearchInput(){
+		    	var keys = $("#keys").val();
+		    	if(invalid(keys)){
+		    	}else{
+		    		return false;
+		    	}
+		    	return true;
+		    };
+
+
+		  //打开知识库窗口
+		  function openKmsWindowshead(type){
+			var hurl="http://10.153.195.92:8080/rdmp/loginAction.do?method=call&nextPage=/index/mainFrame.jsp&dt=Mon%20May%2020%2009:12:18%20GMT%202019";
+			var url = "";
+			if(hurl.indexOf('os.ah.cmcc')==-1){
+				if(type=="task"){//代办
+				  url="http://10.153.195.92:8080/kms/clientAction.do?method=client&nextPage=/kms/kms_tasklist.jsp&userid=PANZHIWEI&isOA=";
+				}else{
+				  url="http://10.153.195.92:8080/kms/clientAction.do?method=client&nextPage=/kms/welcome.jsp&userid=PANZHIWEI&isOA=";
+				}
+			}else if(hurl.indexOf('os.ah.cmcc')!=-1){
+				 if(type=="task"){//代办
+					url="http://os.ah.cmcc/XQGL/kms/clientAction.do?method=client&nextPage=/kms/kms_tasklist.jsp&userid=PANZHIWEI&isOA=yes";
+			     }else{
+			       	url="http://os.ah.cmcc/XQGL/kms/clientAction.do?method=client&nextPage=/kms/welcome.jsp&userid=PANZHIWEI&isOA=yes";
+				 }
+			}
+		  	//window.open(url);
+		  	var targetWndName = "MyWindow";
+		    var wnd = window.open("",targetWndName);
+		    var link = document.getElementById("link");
+		    link.target = targetWndName;
+		    link.href = url;
+		    link.click();
+		  }
+		    $(function(){
+		    	$("#close").click(function(){
+					  $(".reveal-modal-bg").click();
+					});
+		    })
+
+		    function openDevops(){
+		    	 var url="/rdmp/callAction.do?method=call&nextPage=/devops/index.jsp";
+					//window.open(url);
+				  	var targetWndName = "MyWindow";
+				    var wnd = window.open("",targetWndName);
+				    var link = document.getElementById("link");
+				    link.target = targetWndName;
+				    link.href = url;
+				    link.click();
+		    }
+
+		    function openCtmp(huserid){
+		    	window.open("http://152.55.249.96:9092/ctmp/clientlogin/index.do?&username="+huserid);
+		    }
+
+		    function openBoard(){
+		    	window.open("/rdmp/callAction.do?method=call&nextPage=/board/index.jsp&dt=Tue Dec 27 14:51:07 CST 2016");
+		    }
+
+		    function openWorlLoad(){
+			    var url="/rdmp/callAction.do?method=call&nextPage=/workload/index.jsp";
+			    window.open("/rdmp/callAction.do?method=call&nextPage=/workload/index.jsp&dt=Tue Dec 27 14:51:07 CST 2016");
+// 				//window.open(url);
+// 			  	var targetWndName = "MyWindow";
+// 			    var wnd = window.open("",targetWndName);
+// 			    var link = document.getElementById("link");
+// 			    link.target = targetWndName;
+// 			    link.href = url;
+// 			    link.click();
+			  }
+
+
+		    function openAtomHome(){
+		    	 var url="/rdmp/callAction.do?method=call&nextPage=/ppm/index.jsp";
+				//	window.open(url);
+				var targetWndName = "MyWindow";
+				    var wnd = window.open("",targetWndName);
+				    var link = document.getElementById("link");
+				    link.target = targetWndName;
+				    link.href = url;
+				    link.click();
+		    }
+
+		    $(function(){
+		    	  $.ajax({
+		    		  type:"post",
+		    		  url: "/rdmp/ajaxAction.do?method=json&common=checkAtomAsyn&classes=atomService" ,
+		              dataType: "json",
+		              success: function(data){
+		            	  if(data.jsondata !=true){
+		            		  $('#myinfo').remove();
+		            	  }
+		              }
+		    	  });
+		    })
+
+		    //过滤关键字
+		    function invalid(key){
+		    	var keywords = new Array("and", "And", "ANd", "AND", "OR", "oR", "or", "(", ")", ":","[","]","\\");
+		    	for(var i=0; i<keywords.length; i++) {
+		    		if(key==keywords[i]){
+		    			ymPrompt.alert('查询包含关键字！');
+		    			return false;
+		    		};
+		    		//替换字符串为空格
+		    		key=key.replace(keywords[i],"");
+		    		if(key==null||key==""){
+		    			ymPrompt.alert('查询包含关键字！');
+		    			return false;
+		    		}
+		    	}
+		    	return true;
+		    }
+
+		    /*中文转Unicode*/
+		    function chinaToUnicode(s){
+		    	if(s == undefined || s == "")
+		    		return "";
+
+		    	s = s.replace(/\%/g,'%25').replace(/\&/g,'%26').replace(/\?/g,'%3F').replace(/\,/g,"，");
+
+		    	var ret = "";
+		    	var c = "";
+		    	var reg = /%/g;
+		    	for(var i = 0; i < s.length; i++){
+		    		c = s.charAt(i);
+		    		if(/[^\x00-\xff]/g.test(c))
+		    			ret+=escape(c).replace(reg,"\\");
+		    		else
+		    			ret+=c;
+		    	}
+		    	return ret;
+		    }
+		</script>
+		<script src="/rdmp/index/js/jquery.quicksand.js"></script>
+		<script src="/rdmp/index/js/jquery.flexslider-min.js"></script>
+		<!--Custom scripts mainly used to trigger libraries -->
+		<script type="text/javascript" src="/rdmp/index/js/jquery.scrollTo-1.4.2/jquery.scrollTo.js"></script>
+		<script src="/rdmp/index/js/script.js"></script>
+		<script type="text/javascript" src="/rdmp/index/js/jquery.reveal.js"></script>
+		<script type="text/javascript" src="/rdmp/index/javascripts/ddsmoothmenu.js">
+		/***********************************************
+		* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		* This notice MUST stay intact for legal use
+		* Visit Dynamic Drive at #/ for full source code
+		***********************************************/
+		</script>
+		<script type="text/javascript">
+			ddsmoothmenu.init({
+				mainmenuid: "smoothmenu1", //menu DIV id
+				orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+				classname: 'ddsmoothmenu', //class added to menu's outer DIV
+				customtheme: ["#5995c4", "#3e6889"],
+				 contentsource: 'markup'
+				// contentsource:["smoothcontainer", "/rdmp/ajaxAction.do?method=text&common=initMenu&classes=loginServiceImpl"] //"markup" or ["container_id", "path_to_menu_file"]
+			});
+
+			//页面滚动区域宽度设置
+			$(function(){
+				var hi_w=$("#helpinfor").parent().width()-$("#helpinfor").next().width()-$("#helpinfor").prev().width()-60;
+				$("#helpinfor").css("width",hi_w+"px");
+				$(window).resize(function(){
+					var hi_w=$("#helpinfor").parent().width()-$("#helpinfor").next().width()-$("#helpinfor").prev().width()-60;
+					$("#helpinfor").css("width",hi_w+"px");
+				});
+			});
+
+			 var url="/rdmp/ajaxAction.do?method=json&classes=technicalSupportServiceImpl&common=getInfo";
+			 $.getJSON(url,function(data){
+				$("#marqueeinfo").text(data.jsondata);
+			 });
+
+		</script>
+	</body>
+</html><!-- opinion -->
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+<title>安徽移动需求管理系统</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="page page-index">
+<!--<a id="gotop" href="#top" title="Back to top" style="display:none"></a>-->
+    <a id="gotop" href="#top" title="置顶"></a>
+    <a onclick="javascript:location.href='callAction.do?method=call&nextPage=/rdmp/rdmp003/optsuggestion.jsp'" id="zoom" data-reveal-id="feedback" title="意见反馈"></a>
+<!--  	<div id="feedback" class="reveal-modal" style="visibility: hidden;">
+          <h3>
+              反馈意见
+          </h3>
+          <form id="opinionform" name="opinionform" method="post" action="">
+              <textarea rows="8" class="input-block-level" placeholder="请填写反馈意见......"  id="opinionarea"  name="opinionarea"></textarea>
+              <button type="button" class="btn btn-small btn-info closebox" style="float:right" onclick="saveopinion();">
+                  确认
+              </button>
+          </form>
+          <a class="close-reveal-modal close">&#215;</a>
+      </div>  -->
+<script type="text/javascript">
+function saveopinion(){
+ 	var options = {
+ 	        beforeSubmit:  checkopinioninput,
+ 			url: 	  "callAction.do?method=call&common=saveopinion&classes=saveOpinionService&nextPage=/index/index.jsp",
+		    success:   addcallback,
+ 	        type:     'post',
+ 	        dataType:  'json',
+ 	        clearForm: false
+ 	    };
+ 	$('#opinionform').ajaxSubmit(options);
+}
+function checkopinioninput(){
+	var opinionarea = $("#opinionarea").val();
+	if(opinionarea==""||opinionarea==null){
+		ymPrompt.alert("意见不能为空。。。");
+		return false;
+	}
+}
+function addcallback(data){
+	if (data.jsondata.retCode == "0000") {
+			ymPrompt.succeedInfo(ret.jsondata.retDesc);
+		} else {
+			ymPrompt.errorInfo("操作失败");
+	}
+}
+</script>
+</body>
+</html><div id="content">
+		<div class="container">
+			<!-- Services -->
+			<div class="well well-mini" style="padding-left: 10px;">
+				<div class="left"
+					style="width: 80%; height: 110px; overflow-x: hidden;" id="maindiv">
+					<div class="infostyle" id="noticeBar" style="height: 90%;">
+								<h4 class="inline-el pad-right" style="margin-top: 0px; line-height: 30px;" id="huanh">
+									<span style="margin-left: 5px;" id="scon"> 全新办公体验: </span>
+								</h4>
+								<p class="inline-el pad-left" id="pcon">
+								</p>
+					</div>
+				</div>
+				<div class="right">
+					<p class="inline-el pad-left">
+						<a
+							href="/rdmp/callAction.do?method=call&common=explorerInfo&classes=appBulletinClientImpl&nextPage=/rdmp/notice/bulletin_explorer.jsp&a_infokind=1"><font
+							color="white">查看更多</font></a>
+					</p>
+				</div>
+			</div>
+			<!-- start 快捷通道菜单 -->
+			<div class="block features">
+				<ul class="thumbnails">
+					<li class="dropdown span3"><a onclick="gotoview('callAction.do?method=call&nextPage=/rdmp/rdmp007/queryBusinessNeeds.jsp&classes=searchServiceImpl&common=Search&problem_type=01')"
+								class="dropdown-toggle menu-item" id="features-drop"
+								data-toggle="dropdown"> <img id="img_QRDMP0003"
+									src="/rdmp/index/images/shortcutmenu/feature-3.png" alt="Feature 2">
+										<h3 id="title_QRDMP0003" class="title">
+											需求查询</h3></a>
+								<p id="desc_QRDMP0003">查询需求的提出部门、提出时间、开发负责人等需求基本信息时点击此图标。</p></li>
+						<li class="dropdown span3"><a onclick="gotoview('callAction.do?method=call&common=queryPlans&classes=demandPlanService&nextPage=/rdmp/rdmp002/queryBusinessPlan.jsp')"
+								class="dropdown-toggle menu-item" id="features-drop"
+								data-toggle="dropdown"> <img id="img_QRDMP0004"
+									src="/rdmp/index/images/shortcutmenu/feature-4.png" alt="Feature 2">
+										<h3 id="title_QRDMP0004" class="title">
+											版本查询</h3></a>
+								<p id="desc_QRDMP0004">查询月度需求版本相关内容点此图标。可支持按需求名称、月度计划名称、归口部门、开发负责人等条件查询。</p></li>
+						<li class="dropdown span3"><a onclick="gotoview('callAction.do?method=call&classes=onlineSerachService&common=query&nextPage=/rdmp/rdmp003/queryOnlinePlan.jsp')"
+								class="dropdown-toggle menu-item" id="features-drop"
+								data-toggle="dropdown"> <img id="img_QRDMP0007"
+									src="/rdmp/index/images/shortcutmenu/feature-7.png" alt="Feature 2">
+										<h3 id="title_QRDMP0007" class="title">
+											上线查询</h3></a>
+								<p id="desc_QRDMP0007">查询上线计划相关内容点此图标。可支持按上线类型查询上线具体内容。</p></li>
+						<li class="dropdown span3"><a onclick="gotoview('callAction.do?method=call&common=selectConfirmStatus&classes=userEntryService&nextPage=/rdmp/userentry/CheckUserEntryinfo.jsp')"
+								class="dropdown-toggle menu-item" id="features-drop"
+								data-toggle="dropdown"> <img id="img_QRDMP0008"
+									src="/rdmp/index/images/shortcutmenu/feature-8.png" alt="Feature 2">
+										<h3 id="title_QRDMP0008" class="title">
+											工作量申报</h3></a>
+								<p id="desc_QRDMP0008">签入时间：<span name='strsysdate' id='strsysdate'></span>
+<br>
+签出时间：<span id='strsysdateout' name='strsysdateout'></span>
+&nbsp;
+<a href="#" onclick="workloginout()" class="btn btn-mini btn-danger">签出</a></p></li>
+						</ul>
+			</div>
+			<!-- end 快捷通道菜单 -->
+
+
+
+			<!--Pricing Table-->
+			<div class="block">
+				<div class="row pricing-stack">
+					<div class="span3">
+						<h4>
+							<span class="underline"> <a href="#"
+								onclick="choosetasktype('');"> <img
+									style="margin-top: -10px; margin-right: 5px;"
+									src="/rdmp/index/images/1.gif" alt="" /> 待办事件
+							</a>
+							</span>
+						</h4>
+						<ul class="unstyled points" id="mytasklists">
+						</ul>
+					</div>
+					<div class="span3">
+						<h4>
+							<span class="underline"> <a
+								href="callAction.do?method=call&common=queryUserMessage&classes=messageWarnServiceImpl&nextPage=/index/showMessage.jsp">系统留言</a>
+							</span>
+						</h4>
+						<blockquote>
+							<p class="italic" style="height: 20%" id="systeminfo"></p>
+							<small> 需求管理系统 <span class="spacer"> / </span> <span
+								id="nowdate"></span>
+							</small>
+						</blockquote>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<!-- Plan features -->
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row-fluid">
+				<h4 class="title-divider">
+					<span><span>快捷功能菜单</span></span> <small style="margin-top: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;<a
+						data-reveal-id="myModal" onclick="showFastMenu()">&nbsp;&nbsp;添加快捷入口</a></small>
+				</h4>
+				<div id="myModal" class="reveal-modal">
+					<h3 id="chosemenu">勾选您要添加的菜单</h3>
+					<button type="button" class="btn btn-small btn-info closebox"
+						style="float: right" onclick="saveupd()">确认</button>
+				</div>
+				<ul class="nav nav-tabs hidden-phone right">
+					<li class="active"> <a class="all">我的快捷菜单</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="thumbnails block customers" id="quicksand">
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var show1=0;
+		var show2=0;
+		var show3=0;
+		function gotoview(url) {
+			location.href = "/rdmp/"+url;
+		}
+		/**签入*/
+		worklogin();
+		function worklogin() {
+			var url = "ajaxAction.do?method=json&classes=workLoginService&common=queryLoginInfo";
+			$.getJSON(url,workLoginBack);
+		}
+
+		function workLoginBack(ret) {
+			if(ret.jsondata.retCode == '0000')  {
+				//alert(ret.jsondata.list[0].loginup);
+				//alert(ret.jsondata.list[0].loginout);
+				$("#strsysdate").text(ret.jsondata.list[0].loginup);
+ 				$("#strsysdateout").text(ret.jsondata.list[0].loginout);
+			}
+		}
+
+		/*签出*/
+		function workloginout(){
+			var url = "ajaxAction.do?method=json&common=workloginout&classes=workLoginService";
+			$.getJSON(url,workLoginoutBack);
+		}
+		function workLoginoutBack(ret){
+			if(ret.jsondata.retCode == "0000"){
+				//alert(ret.jsondata.optsn+"<>"+parseInt(ret.jsondata.optsn));
+			if( parseInt(ret.jsondata.optsn)<=3){
+					var desc = ""+
+						             ret.jsondata.retDesc+
+					                 "<br/><br/>"+
+					                 "<span style='color:red;font-size:14px;'>"+
+					                 "离月底还有"+ret.jsondata.optsn+"天，若有未申报的工时，请及时申报，跨月不能补报。"+
+					                 //"由个人忘报漏报等原因造成的订单量不足问题，后期将不会处理，请知晓。 "+
+					                 "</span>";
+					ymPrompt.alert(desc,300,200,null,function(){
+						 if(ret.jsondata.totalrecords=="0"){
+								location.href = " callAction.do?method=call&classes=workloadService&common=getSysdate&nextPage=/rdmp/newworkload/workinfoadd.jsp";
+						   }else{
+							   $("#strsysdateout").text(ret.jsondata.content);
+						   }
+					});
+				}else{
+					ymPrompt.alert(ret.jsondata.retDesc,250,150,null,function(){
+						$("#strsysdateout").text(ret.jsondata.content);
+					});
+				}
+			//-------
+			}
+		}
+
+	 gettasklists("");//查询代办类型及统计个数
+//	isShow();
+	//我的代办任务处理
+	//---------------------------------------------拼接待办类型-----------------------------------------
+		function gettasklists(data){
+			var url="/rdmp/ajaxAction.do?method=json&common=queryNewAllPendTask&classes=workDeskService&wfid="+data+"&wfinstname=";
+			$.getJSON(url,setTasksCallBack);
+		}
+
+	function setTasksCallBack(data) {
+		var tasktype = "";
+		if(data.jsondata.taskcount.length>0){
+			for(var i=0;i<data.jsondata.taskcount.length;i++){
+				if(data.jsondata.taskcount[i].wfname.indexOf("集团两级")!=-1){
+					tasktype = "<li>"+
+					"<a  href='#'  onclick=\"choosetasktype('"+data.jsondata.taskcount[i].wfid+"');\" ><font color='red'>"+
+						data.jsondata.taskcount[i].wfname+
+					"</font></a>("+
+						data.jsondata.taskcount[i].taskcount+
+					")</li>";
+		}else if(data.jsondata.taskcount[i].wfname.indexOf("需求拆分流程")!=-1&&false&&true){
+					tasktype = "";
+				} else if(data.jsondata.taskcount[i].wfname.indexOf("敏捷")!=-1||data.jsondata.taskcount[i].wfname.indexOf("迭代计划")!=-1||data.jsondata.taskcount[i].wfname.indexOf("用户故事")!=-1){
+					tasktype = "<li>"+
+					"<a  href='#'  onclick=\"goToDevops('"+data.jsondata.taskcount[i].wfid+"');\" >"+
+						data.jsondata.taskcount[i].wfname+
+					"</a>("+
+						data.jsondata.taskcount[i].taskcount+
+					")</li>";
+				}else{
+					tasktype = "<li>"+
+						"<a  href='#'  onclick=\"choosetasktype('"+data.jsondata.taskcount[i].wfid+"');\" >"+
+							data.jsondata.taskcount[i].wfname+
+						"</a>("+
+							data.jsondata.taskcount[i].taskcount+
+						")</li>";
+					}
+				$("#mytasklists").append(tasktype);
+				}
+			}else{
+				show1=1;
+		//$("#mytasklists").append("<h5 style='color:#A9A9A9;'><br/>&nbsp;&nbsp;&nbsp;&nbsp;暂无待办...</h5>");
+		}
+	 	getUndoTasks();
+	 	getDefectTaskInfo();
+
+	 }
+	//查询缺陷平台待办
+function getDefectTaskInfo(){
+	var url = "/rdmp/ajaxAction.do?method=json&common=getDefectTaskInfo&classes=getDefectTaskInfoWS";
+		$.get(url,function(data){
+			var datas=eval("("+data+")");
+			var dataList= datas.jsondata.contentByList;
+			var html="";
+			if(dataList.length>0){
+		html+=	"<li><a  href='#'  onclick=\"defectTaskDetail();\" >测试平台待办</a>("+dataList.length+")</li>";
+		$("#mytasklists").append(html);
+			}else{
+				show3=1;
+			}
+			isShow();
+		});
+
+	}
+
+function defectTaskDetail(){
+
+		location.href ="callAction.do?method=call&nextPage=/rdmp/workdesk/defect_task_details.jsp";
+	}
+	//ZhanWenBin 查询缺陷待办
+	function getUndoTasks(){
+	   	$("#undoTask").empty();
+	   	var url = "/rdmp/ajaxAction.do?method=json&common=queryMyTaskCount&classes=subMessage&userid=PANZHIWEI";
+	   	$.getJSON(url,function(data){
+	   		if (data.list.length > 0){
+	   			for(var i=0;i<data.list.length;i++){
+	   	   			var wfid=data.list[i].wfid;
+	   	   			var idhtml ="<li><a onclick='opentaskview("+wfid+");'href='#'>"+data.list[i].wfname+"（<span class='red'>"+data.list[i].taskcount+"</span>）</a></li>";
+	   	   			    $("#mytasklists").append(idhtml);
+	   	   		}
+	   		}else{
+	   			show2=1;
+	   			//$("#mytasklists").append("<li><a>您当前没有待办事项</a></li>");
+	   		}
+	   		isShow();
+	   	});
+
+	   }
+
+
+	function goToDevops(wfid){
+		var url="/rdmp/loginAction.do?method=call&nextPage=/devops/agilemanager/homepage_task.jsp&wfind="+wfid;
+		window.open (url);
+	}
+
+
+
+	function opentaskview(wfid){
+		var url="http://152.55.249.164:8080/tms/clientAction.do?method=clients&nextPage=/npage/myself/require_undo.jsp&wfid="+wfid+"&userid=PANZHIWEI";
+		window.self.location.href=url;
+	}
+	function isShow(){
+		if(show1+show2+show3==3){
+		$("#mytasklists").append("<h5 style='color:#A9A9A9;'><br/>&nbsp;&nbsp;&nbsp;&nbsp;暂无待办...</h5>");
+		}
+	}
+	/* //wangming 查询知识库待办
+	function kmsTask(){
+		var url="/rdmp/ajaxAction.do?method=json&common=queryKmsTask&classes=queryKMSInfo";
+		$.getJSON(url,kmsTasksCallBack);
+	}
+	//知识库待办展示
+	function kmsTasksCallBack(data){
+		var kmscount = data.jsondata;
+		if(kmscount>0){
+			var kmsTaskHtml = "<li><a href='#' onclick=\"openKmsWindowshead('task')\" '><font color='blue'>知识库待办</font></a>("+kmscount+")</li>";
+			$("#mytasklists").append(kmsTaskHtml);
+	}
+	} */
+
+	//调用接口获取集成服务平台待办
+
+	function serviceTask(){
+		var url="/rdmp/ajaxAction.do?method=json&common=queryTaskCount&classes=serverAndFunctionService";
+		$.getJSON(url,serviceTaskCallBack);
+	}
+	//调用接口展示
+	function serviceTaskCallBack(data){
+		var servicecount = data.jsondata;
+
+		if(servicecount>0){
+			var serviceTaskHtml = "<li><a href='#' onclick=\"openServiceTask()\" '><font color='blue'>集成服务平台待办</font></a>("+servicecount+")</li>";
+			$("#mytasklists").append(serviceTaskHtml);
+		}
+	}
+
+   //查询发布服务待办
+
+	function publishTask(){
+		var url="/rdmp/ajaxAction.do?method=json&common=publishservice&classes=serverAndFunctionService";
+		$.getJSON(url,publishTaskCallBack);
+	}
+	//服务发布待办展示
+	function publishTaskCallBack(data){
+		var publishcount = data.jsondata;
+		if(publishcount>0){
+			var publishTaskHtml = "<li><a href='#' onclick=\"location.href='callAction.do?method=call&nextPage=/rdmp/change/publishFunServer.jsp'\" '><font color='green'>发布服务待办</font></a>("+publishcount+")</li>";
+			var taskowner='PANZHIWEI';
+			if(taskowner=='DINGY'){
+				$("#mytasklists").append(publishTaskHtml);
+			}
+		}
+	}
+
+	//接口跳转方法
+	function openServiceTask(){
+		var user='PANZHIWEI';
+		var url = "http://10.153.195.91:51800/abilityOpen/app/LoginWithOutPawdAction?username="+user;
+		window.open(url);
+	}
+
+	function choosetasktype(data){
+		location.href ="callAction.do?method=call&nextPage=/rdmp/workdesk/tasktypecountandlist.jsp&wfid="+data;
+	}
+
+			//获取公告栏数据
+			function queryinform(){
+				var url ="/rdmp/ajaxAction.do?method=json&common=desktopquery&classes=appBulletinClientImpl";
+				$.post(url,{"a_infokind":1},function(data){
+					var infolist = data.list;
+					if(infolist.length > 1 ) {
+						// 调用滚动公告栏的js方法
+						initNoticeArray(infolist);
+					} else if(infolist.length==1){
+						var title = ((infolist[0].title.length>25)?(infolist[0].title.substr(0,25)+".."):infolist[0].title);
+						var content = infolist[0].comment;
+						//var purl = "callAction.do?method=call&common=queryInfoById&classes=appBulletinClientImpl&record=true&nextPage=/rdmp/notice/info_detail.jsp&id="+infolist[0].bid;
+						$("#scon").html(title);
+						var str="<marquee behavior='scroll'  direction='up' height='60' scrollamount='2.5' scrolldelay='5' onmouseout='this.start()' onmouseover='this.stop()' >'"+content+"'</marquee>";
+						$("#pcon").html(str);
+					}else{
+						queryupform();
+					}
+				},'json');
+			}
+
+			function queryupform(){
+				var url ="/rdmp/ajaxAction.do?method=json&common=queryForUpnotice&classes=appBulletinClientImpl";
+				$.post(url,{"a_infokind":1},function(data){
+					var infolist = data.list;
+					// 调用滚动公告栏的js方法
+					initNoticeArray(infolist);
+				},'json');
+			}
+
+
+
+			$(document).ready(function(){
+				getTime();
+				queryinform();//查询公告
+				showsysteminfo();
+				getFastEenu();//加载快捷菜单
+				//获取知识库待办
+				//kmsTask();
+				//服务集成代办
+				//serviceTask();
+				//发布服务待办
+				publishTask();
+
+			});
+
+			//获取系统时间
+			function getTime(){
+				var date=new Date();
+				var year=date.getFullYear();  //得到年份
+				var month=(date.getMonth()+1);  //当前月份
+				var day=date.getDate()>=10?date.getDate():"0"+date.getDate();  //日
+				var hh=date.getHours()>=10?date.getHours():"0"+(date.getHours());  //小时
+				var min=date.getMinutes()>=10?date.getMinutes():"0"+date.getMinutes();  //份
+				var second=date.getSeconds()>=10?date.getSeconds():"0"+date.getSeconds();//秒
+				$("#nowdate").html(year+"-"+month+"-"+day+" "+hh+":"+min+":"+second);
+				setTimeout(getTime,1000);
+			}
+			//系统查询
+			var i = 0;
+			var messages;
+			var dOrj = true;
+			function showsysteminfo(){
+				$("#systeminfo").mouseover(function (){dOrj=false;});
+				$("#systeminfo").mouseout(function (){ dOrj=true;});
+				var url = "/rdmp/ajaxAction.do?method=json&common=getMessageList&classes=messageWarnServiceImpl"
+				$.post(url,{"way":"window"},function(messagedata){
+					messages = eval(messagedata.jsondata);
+					if(messages.length==0){
+						$("#systeminfo").html("<p>您目前没有系统信息!</p>");
+					}else{
+						showinfo();
+					}
+				},'json');
+			}
+
+			//系统信息展示
+			function showinfo(){
+				var informspeed = "3000";
+				var showcontent ;
+				if(messages[i].CONTENT.length>30){
+					showcontent = messages[i].CONTENT.substr(0,30)+"<font color=\"red\">...</font>";
+				}else{
+					showcontent = messages[i].CONTENT;
+				}
+				$("#systeminfo").html("<a style='color: #333333' href='"+messages[i].URL+"' title='"+messages[i].CONTENT+"' onclick='changeMsgWrnStatu(" + messages[i].PKID + ");'>"+showcontent+"</a>");
+				if(i<messages.length-1){
+					i++;
+				}else{
+					i=0;
+				}
+				function start(){
+					if(dOrj){
+						showinfo();
+					}else{
+						setTimeout(start,informspeed);
+					}
+				}
+				setTimeout(start,informspeed);
+			}
+
+			//快捷菜单保存
+			function saveupd(){
+				var str="";
+		        $("input[name='menu']:checkbox").each(function(){
+		            if($(this).attr("checked")){
+		                str += $(this).val()+",";
+		            }
+		        });
+			  if(str==""){
+				  return;//勾选的菜单为空
+			  }
+			  var url = " /rdmp/ajaxAction.do?method=json&common=addFastMenu&classes=menuManageServiceImpl ";
+			   $.post(url,{"menus":str},function(data){
+				   getFastEenu();
+			   },'json');
+			}
+			//改变消息提醒的状态为已读
+			function changeMsgWrnStatu(pkid){
+				var url = "ajaxAction.do?method=text&common=changeMsgWrnStatu&classes=messageWarnServiceImpl";
+				$.post(url,{"pkid":pkid},function(data){
+
+				});
+			}
+			//添加快捷菜单展示
+			function showFastMenu(){
+				var url = "ajaxAction.do?method=json&common=getUserMenu&classes=loginServiceImpl";
+				$.post(url,function(data){
+					$("#showmenu").remove();
+					$("#chosemenu").after(data.jsondata);
+					getFastEenu();
+				},'json');
+			}
+
+			//获取快捷菜单
+			function getFastEenu(){
+				var url = "ajaxAction.do?method=json&common=getFastMenu&classes=menuManageServiceImpl";
+				var fastMenu = "";
+				$.post(url,function(data){
+					var len = data.totalProperty
+					for(var f=0;f<len;f++){
+						fastMenu+="<li class=\"span2 type-web\" data-id=\"id-0\" data-type=\"type-web\"><a href=\""+data.list[f].menuaction+"\"><span class=\"inner-wrapper\"><span class=\"title\">"+data.list[f].menuname+"</span></span></a></li>";
+					}
+					$("#quicksand").html("");
+					$("#quicksand").append(fastMenu);
+				},'json');
+
+			}
+		</script>
+	<!-- <script type="text/javascript">
+var chart;
+$(document).ready(function() {
+var url = "ajaxAction.do?method=json&common=queryOnlineNumbService&classes=indexPageRelatedDataService";
+$.getJSON(url, queryonlineback);
+});
+
+	function queryonlineback(data){
+	var 	buisreqnumb = data.jsondata.buisreqnumb;
+	var optimizereqnumb = data.jsondata.optimizereqnumb;
+	var defectreqnumb = data.jsondata.defectreqnumb;
+	var lastmonth = data.jsondata.lastmonth;
+	var arrays=new Array();
+	chart = new Highcharts.Chart({
+		chart: {
+			renderTo: 'circleanalysischart2',
+			plotBackgroundColor: null,
+			plotBorderWidth: null,
+			plotShadow: false
+		},
+		  credits: {
+            enabled : false
+        },
+		title: {
+			text: lastmonth+'月批量上线分布',
+           	style: {
+                fontSize: '12px',
+                fontFamily: '宋体'
+            }
+		},
+		tooltip: {
+		formatter: function() {
+		return '<b>'+ this.point.name +'</b>: '+ this.y +'个';
+		}
+	    },
+		plotOptions: {
+			pie: {
+				allowPointSelect: true,
+				cursor: 'pointer',
+				dataLabels: {
+					enabled: false,
+					formatter: function() {
+						return '<b>'+ this.point.name +'</b>: '+ this.y +'个';
+					}
+				},
+				showInLegend: false
+			}
+		},
+	    series: [{
+			type: 'pie',
+			name: 'Browser share',
+			data: [
+			   	['业务需求',parseInt(buisreqnumb)],
+				['优化需求',parseInt(optimizereqnumb)],
+				['缺陷',parseInt(defectreqnumb)]
+			]
+		}],
+		exporting:{
+            enabled:false //用来设置是否显示‘打印’,'导出'等功能按钮，不设置时默认为显示
+       }
+	});
+}
+</script> -->
+	<script type="text/javascript">
+var chart;
+$(document).ready(function() {
+	var url = "ajaxAction.do?method=json&common=queryOrgCreateReqNumbService&classes=indexPageRelatedDataService";
+	$.getJSON(url, querycreatereqback);
+});
+
+function querycreatereqback(data){
+	chart = new Highcharts.Chart({
+		chart: {
+			renderTo: 'circleanalysischart1',
+            type: 'column',
+            margin: [ 50, 50, 100, 80],
+            inverted:false
+        },
+        title: {
+            text:  data.jsondata.lastmonth+'月业务部门新提需求情况',
+           	style: {
+                   fontSize: '12px',
+                   fontFamily: '宋体'
+               }
+        },
+        xAxis: {
+            categories: [
+				'市场经营部',
+				'数据业务部',
+				'政企客户部',
+				'客户服务部',
+				'在线营销服务中心',
+				'网络与信息安全部',
+				'内审部',
+				'财务部',
+				'其他'
+            ],
+            labels: {
+                rotation: -45,
+                align: 'right',
+                style: {
+                    fontSize: '12px',
+                    fontFamily: '宋体'
+                }
+            }
+        },
+	  credits: {
+	            enabled : false
+	        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '新提需求数',
+            style: {
+           	    fontSize: '12px',
+                fontFamily: '宋体'
+            }
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        series: [{
+            name: '需求数',
+            data: [
+				parseInt(data.jsondata.jingyingbunumb),
+				parseInt(data.jsondata.shujuyewunumb),
+				parseInt(data.jsondata.zhengqikehunumb),
+				parseInt(data.jsondata.kefuguanlinumb),
+				parseInt(data.jsondata.kehufuwucenternumb),
+				parseInt(data.jsondata.wangluonumb),
+				parseInt(data.jsondata.neishennumb),
+				parseInt(data.jsondata.caiwunumb),
+				parseInt(data.jsondata.qitanumb)
+			],
+            dataLabels: {
+                enabled: true,
+                rotation: -90,
+                color: '#030303',
+                align: 'right',
+                x: 4,
+                y: -18,
+                style: {
+                    fontSize: '12px',
+                    fontFamily: '宋体',
+                    textShadow: '0 0 3px black'
+                }
+            }
+        }],
+		exporting:{
+            enabled:false //用来设置是否显示‘打印’,'导出'等功能按钮，不设置时默认为显示
+       }
+    });
+}
+</script>
+	<script type="text/javascript">
+showMsgWindow();
+/**
+* 加载消息内容，显示消息提醒窗口
+**/
+function showMsgWindow () {
+	Ext.Ajax.request({
+		 url : 'ajaxAction.do?method=text&common=getMessageList&classes=workWarnService',
+		params : {
+			'way' : 'window'
+		},
+		method : 'POST',
+		callback : function(options, success, response) {
+			if (success) {
+				var data = response.responseText;
+				data = Ext.util.JSON.decode(data);
+				//alert(data.length);
+				var html = "";
+
+				for(var i=0;i<data.length;i++){
+					//alert(data[i].length);
+					 if(data[i].length>0){
+						if(i==0){
+						     html +="<span  id='warn_0' style='color:red'>报工提醒：</span>";
+						}
+						if(i==1){
+							 html +="<span id='warn_1' style='color:red'>订单申报提醒：</span>";
+						}
+						if(i==2){
+							html +="<span id='warn_2' style='color:red'>订单审批提醒：</span>";
+						}
+						 Ext.each(data[i],function(d){
+								if(d.CONTENT != null && "null" != d.CONTENT){
+									html += "<li><a href='" + d.URL + "' title='" + d.CONTENT + "' target='_blank' onclick='changeMsgWrnStatu("+d.ID+");'>";
+									d.CONTENT = d.CONTENT.length > 28 ? d.CONTENT.substr(0,27) + "..." : d.CONTENT;
+									html += d.CONTENT + "</a></li>";
+								}
+							});
+
+					}
+				};
+
+
+				/* Ext.each(data[0],function(d){
+					if(d.CONTENT != null && "null" != d.CONTENT){
+						html +="<span><font color=red>报工提醒：</font></span>";
+						html += "<li><a href='" + d.URL + "' title='" + d.CONTENT + "' target='_blank' onclick='changeMsgWrnStatu("+d.PKID+");'>";
+						d.CONTENT = d.CONTENT.length > 22 ? d.CONTENT.substr(0,21) + "..." : d.CONTENT;
+						html += d.CONTENT + "</a></li>";
+					}
+
+				});   */
+				//html = "" == html ? "无系统消息" : html;
+				if("" != html){
+				   var sysMsgWin = false ;
+					if(!sysMsgWin){
+						sysMsgWin = new Ext.ux.TipsWindow({
+								title : "欢迎使用需求管理平台",
+								autoScroll: true,
+								autoHide : false,
+								height : 195,
+								width : 320,
+								count : 1,
+								html : html
+							});
+					}
+					sysMsgWin.show();
+				};
+
+
+
+				color();
+				function color(){
+					 var text=document.getElementById("warn_0");
+					 var text1=document.getElementById("warn_1");
+					 var text2=document.getElementById("warn_2");
+					 if(text!=null){
+				         if(text.style.color=="red"){text.style.color="yellow";
+				            } else if(text.style.color=="yellow"){ text.style.color="blue";
+						      }else{ text.style.color="red"; }
+					   }
+					 if(text1!=null){
+					     if(text1.style.color=="red"){ text1.style.color="yellow";
+						     } else if(text1.style.color=="yellow"){text1.style.color="blue";
+						       }else{ text1.style.color="red"; }
+					  }
+				     if(text2!=null){
+					     if(text2.style.color=="red"){ text2.style.color="yellow";
+						    } else if(text2.style.color=="yellow"){  text2.style.color="blue";
+						     }else{ text2.style.color="red"; }
+				     }
+					 setTimeout(function(){
+						       color();
+						   },300);
+				  }
+
+			}
+		}
+
+	 });
+
+  }
+
+/**
+* 改变消息提醒的状态为已读
+**/
+function changeMsgWrnStatu(id){
+	Ext.Ajax.request({
+		url : 'ajaxAction.do?method=text&common=changeMsgWrnStatu&classes=workWarnService',
+		params : {
+			'id' : id
+		},
+		method : 'POST',
+		callback : function(options, success, response) {
+			//showMsgWindow();
+			window.location.reload(true);
+		}
+	});
+ }
+
+
+</script>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+<title>安徽移动需求管理系统</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="page page-index">
+<!-- 		<div id="content-below" class="wrapper"> -->
+<!-- 			<div class="container"> -->
+<!-- 				<div class="row-fluid"> -->
+<!-- 					<div class="upsell"> -->
+<!-- 						<small class="muted"> -->
+<!-- 							查询新版本更新内容! -->
+<!-- 							<a class="btn btn-primary"> -->
+<!-- 								GO -->
+<!-- 								<i class="icon-arrow-right"> -->
+<!-- 								</i> -->
+<!-- 							</a> -->
+<!-- 					</small></div><small class="muted"> -->
+<!-- 				</small></div><small class="muted"> -->
+<!-- 			</small></div> -->
+<!-- 			<small class="muted"></small> -->
+<!-- 		</div> -->
+
+		<small class="muted">
+			<div id="footer">
+				<div class="container">
+					<div class="row-fluid">
+<!-- 						<div id="toplink"> -->
+<!-- 							<a href="#top" class="top-link" title="Back to top"> -->
+<!-- 								回到顶部 -->
+<!-- 								<i class="icon-chevron-up"> -->
+<!-- 								</i> -->
+<!-- 							</a> -->
+<!-- 						</div> -->
+						<!--@todo: replace with company copyright details-->
+						<div class="subfooter">
+							<div class="span6">
+								<p>
+								版权所有
+								<a>
+									中国移动通信集团安徽有限公司
+								</a>
+							</p>
+							</div>
+							<div class="span6" >
+								<ul class="inline pull-right">
+									<li>
+									技术支持:
+									<a>
+										150-5600-1118
+									</a></p>
+								</li>
+								<li>
+									e-mail:
+									<a>
+										ahrms_dcits@163.com
+									</a>
+								</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</small>
+	</body>
+</html></body>
+</html>
